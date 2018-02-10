@@ -12,7 +12,7 @@
     
     <title>
         
-            标签: 编译原理 | 
+            2017年读书笔记 | 
         
         恍惚
     </title>
@@ -36,7 +36,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="天之地子">
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content="null">
+    <meta name="keywords" content="null,读书笔记">
 
     <!-- Site Verification -->
     
@@ -65,15 +65,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://yoursite.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="标签: 编译原理 | 恍惚">
+    <meta property="og:title" content="2017年读书笔记 | 恍惚">
     <meta property="og:image" content="/img/favicon.png" />
     <meta property="og:description" content="">
-    
+    <meta property="og:article:tag" content="读书笔记"> 
 
+    
+        <meta property="article:published_time" content="12月 12, 2016" />
+        <meta property="article:modified_time" content="2月 10, 2018" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="标签: 编译原理 | 恍惚">
+    <meta name="twitter:title" content="2017年读书笔记 | 恍惚">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -81,13 +84,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/tags/编译原理/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2016/12/12/2017读书笔记/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "恍惚",
+        "logo": "/img/favicon.png"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "天之地子",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/favicon.png"
+        },
+        "description": "我向东西行，转身时却撞到自己。"
+    },
+    "headline": "2017年读书笔记",
+    "url": "http://yoursite.com/2016/12/12/2017读书笔记/index.html",
+    "datePublished": "12月 12, 2016",
+    "dateModified": "2月 10, 2018",
+    "description": "",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://yoursite.com"
+    }
+}
+</script>
 
 
     
@@ -270,157 +303,308 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
     
-
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2015/04/28/编译原理/简单的一遍编译器/">简单的一遍编译器</a></p>
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
     </div>
+    -->
 
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
         
-            ###1、概述###
-程序设计语言可以通过以下两个方面来定义：第一方面是程序模式，即语言的语法；第二方面是程序含义，即语言的语义。
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2015/04/28/编译原理/简单的一遍编译器/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/myAvatar.png" width="44px" height="44px" alt="天之地子's avatar">
-            </div>
-            <div>
-                <strong>天之地子</strong>
-                <span>4月 28, 2015</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+    
+
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
                 
-            </span>
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 20 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2015/04/22/编译原理/编译简介/">编译简介</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            编译由两部分组成：分析与综合。
-分析部分将源程序切分成一些基本块并形成源程序的中间表示，综合部分把源程序的中间表示转换为所需的目标程序...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2015/04/22/编译原理/编译简介/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/myAvatar.png" width="44px" height="44px" alt="天之地子's avatar">
-            </div>
-            <div>
-                <strong>天之地子</strong>
-                <span>4月 22, 2015</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/编译原理/">编译原理</a>
-            </span>
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 20 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                2017年读书笔记
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/myAvatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>天之地子</strong>
+        <span>12月 12, 2016</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/读书笔记/">读书笔记</a>
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=2017年读书笔记&url=http://yoursite.com/2016/12/12/2017读书笔记/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=2017年读书笔记&url=http://yoursite.com/2016/12/12/2017读书笔记/index.html&via=天之地子" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2016/12/12/2017读书笔记/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com/2016/12/12/2017读书笔记/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <blockquote>
+<p><a href="http://vitalzhu.github.io/2016/12/12/2016%E8%AF%BB%E4%B9%A6%E6%80%BB%E7%BB%93/" target="_blank" rel="external">2016年读书笔记</a></p>
+<p><a href="http://vitalzhu.github.io/2015/12/18/2015%E8%AF%BB%E4%B9%A6%E6%80%BB%E7%BB%93/" target="_blank" rel="external">2015年读书笔记</a></p>
+<p><a href="http://vitalzhu.github.io/2015/01/27/Reading/%E4%BB%8A%E5%B9%B4%E4%BD%A0%E8%AF%BB%E8%BF%87%E4%BA%86%E5%93%AA%E4%BA%9B%E4%B9%A6/" target="_blank" rel="external">2014年读书笔记</a></p>
+</blockquote>
+<p>年与时驰，意与日去。<br>2017年就这么过去了，这一年里对于我而言没什么值得特别铭记的大事，一切都按部就班，一切都平静如水，只是在部分规划上落下了一些，不便详谈。<br>今年的看的书要比去年少很多，主要原因是多了一些思考。我翻了一下去年的书单，竟然多达四十三本，当然其中有几本并没有读完。当我仔细翻看我的去年的书单的时候，发现很多书籍给我带来的不是真正的知识，而只是见识。</p>
+<p>在互联网信息化的今天，我们突然有了更多选择和接触信息的机会。而大部分人一旦突然拥有了选择的权力往往会不知所措，回过神来以后就会把权力在被动选择中放任到底。选择最大的偏见就是去选择我们喜欢的和我们感兴趣的事物，而那些不喜欢的、不感兴趣的或者不一样的事物就会被有意的或者无意的渐渐的消失在我们的时间线上。慢慢的我们的时间里会充斥着大量看似相似的内容，我们会慢慢的蜷缩在那个舒适的看见里，我们会慢慢的对外界其它从无所谓、无感到无知。</p>
+<p>如果我们把信息的来源本身定义为元信息，那么我们直接从元信息里获得的资料集合定义为第一手信息。然而由于个体认知差异，每个个体获得的信息必然是不一样的，于是有了传播的需要。而由于人的惰性，大部分人往往不会对元信息信息进行深层构建和集合，直到逐渐失去了这个能力。那么在大部分人选择的时间线上的信息资料里，就会充斥着其他人构建后的资料和集合，这个时候我们大部分人接受到的就是多手信息。多手信息即元信息被个体初次构建集合后经其他个体多次删除、修改、再构建后传播的信息，传播的次数越多，信息中含有元信息的资料会越少，冗余和不准确的资料就会越多，即私货和偏见就越多。</p>
+<p>反应到大部分个体就是对不被选择的信息我们逐渐无知，对于选择的信息我们进入了更深的偏见。当然，无知和偏见这部分属于见识了。</p>
+<p>信息之上是见识，见识往往是大部分人一辈子的牢笼，因为见识里大部分都是别人思想的垃圾和意识形态的陷阱，这里就包括所谓的能力和常识，出了这个牢笼就是真正的知识。</p>
+<p>知识与见识，虽然只有一字之差，所指的含义确是谬以千里。见识，指的是对所看见的事物加以认识之后的思维暂留。见识是对有差别的选择之后的无差别看见，更多的是在对现象世界的了解和知道，见识只能部分看见，无法整体看见。知识，是对认识的事物的认知存在。知识是在见识表面之后的存在，见识中会隐含着知识，但不是真正的知识，真正的知识必须通过意识的判断和思维之后在观念中形成思维存在。见识在于信息的收集和视野的拓展，而知识在于思维生成和理性逻辑。一切能够形成判断的是知识，一切能够形成看见的是见识。</p>
+<p>见识多了，如果无法在更高的思维中进行知识的统觉综合往往会形成一种认识的瓶颈，即一种感觉明明自己知道的很多，却无法意识中更进一步的困境。此时个体会始终找不到突破口，再加上这一路上总是缺乏名师指路，往往在极度的痛苦中寻找出路，意识会在极度的自负和自卑中来回转换多次。大多数的时候甚至会剑走偏锋，妄图用一种短快奇的方式来给自己进行思维突破，有时候的确会有一些效果，甚至会产生一种特异的时空共鸣，思想在这里经奇点灵感的发散能够抽象和认识出很多以前自己难以理解和从未思考过得内容，会发现和形成一套自己的见识理论。但是这些理论和理解大多数的时候都是片面的，甚至是错误的。原因就在于短快奇只以一种刺入的方式进入知识的统觉中，认识到的往往只是知识的一个环节上的元素，或者逻辑上的一个步骤中的一个边角，这点东西大部分时候足以让人惊奇了。如果这个部分用的好了可以作为寻找真正知识的一个方向和突破口，但是大部分人都在沾沾自喜中逐渐被见识习惯所规范和遗忘掉了。见识大都停留在记忆里。</p>
+<p>知识一种意识判断后的思维存在，拥有信息资料构建和审核的能力，以及对见识进行判断和抽象能力。任何个体都拥有知识，但是大部分个体缺乏深层次的纯粹的知识。深层次的知识会远离见识，但是对一切见识拥有基本分别的能力。浅层次的知识是一种初始的知识状态，大多数隐藏在见识中，少部分成为知识后却被见识反复纠缠，浅层次的知识只能对部分或对应的见识拥有判断的能力。当浅层次的知识摆脱见识的约束之后就称为真正的知识存在，知识存在不仅会对见识进行判断和逻辑，也会对已存在的知识存在进行判断和逻辑，然后知识存在会在知识存在中不断的彼此赋予和构建自身，赋予和构建的过程就是知识存在不断地向深层延展和抽象的过程。</p>
+<p>深层抽象随后进入意识里构成认知，认知由纯粹的逻辑和抽象构成，认知会对知识进行审核和抽象，经由理性剔除一切存在相关，只留下逻辑和抽象。认知拥有观念现象根本的能力，拥有判断知识的能力，拥有选择见识的能力。意志通过认知将知识和见识应用现象世界。</p>
+<p>自然语言在进入认知时已经显得苍白无力捉襟见肘了。<br>认知之上是文字和语言也难以进入的领域，是一种纯粹的思维视觉和意识感知，它和现象世界唯一联系是逻辑，即通过认知来联系现象世界进行行为。</p>
+<p>人类的思维习惯是线性的，非线性的规律往往会被大多数人潜意识刻意忽略或者否定掉。这就包括时间。</p>
+<p>时间本来就是一个人为定义的度量词，各个文明和各个时期的记录和表述方式都不一样，但是基本上都是线性的表示，因为时间给我们的感觉是流逝的，一直向前走的，一步步推着我们走向终点。<br>然而时间真的是线性的吗？时间的本质究竟是什么？时间是如何存在的？</p>
+<p>时间不过是人为便于思考现象世界，而对物质的运动划分，是一种人定规则。时间的本质是行为序列，时间的存在必然是伴随着空间的。时间实际上并不存在，时间是一种心智概念，通过在空间和数让人能够对行为先后排序进行看见。时间的存在必然伴随着空间和看见，没有空间则行为无法存在，没有看见则行为无法描述，即存在没有意义。当时间表现在现象世界里时被人为定义的标准所度量，为了方便被描述统一的行为序列，这就是我们正常在现象世界中使用的钟表刻度和北京时间的表示。而时间在深层意识里的时候，那么就会变成非线性行为。我们有时在深入的思考时候（或极为专注时），会忘记了外在世界的时间存在，但我们思考完，注意力从深层次的意识中抽出来的时候，有时候明明感觉只有几分钟的思考，在现象世界的线性标准中却过去了半个小时之久，有的时候在意识中明明感觉过去了很长时间，而现象世界的线性标准中只过去了几分钟。西方的学者有过类似的描述叫做“Flow“，但是这种描述还是过于表面，这是一种基于经验在现象中的归纳，或者说只是在现象世界中对于这类情况观察后的总结，这种理论被约束在了一个人为定义的统一标准中，而且没有进行进一步的深入探索。那么时间在意识中如何存在和定义？和现象世界的线性系统如何关联？</p>
+<p>对于我们今天走入社会的大部分人而言，我们使用的数学知识还停留在西方三四百年以前的知识，甚至有些还是一千多年以前的定理。对于我们大部分人而言，最近三百年来的数学发展和应用我们似乎一无所知。</p>
+<p>我早在两三年前的时候就在想一个问题，有没有一份工作，一两个人就可以做，不需要看客户脸色，受政府的政策影响小，对于参与的人都相对公平，工作的时间上和空间上不受限制，而且离钱够近。我查了很多个行业的资料，最终很有意思的发现这份工作居然是在股市，国人纷纷谈之色变的股市。而且我发现这里面不仅满足我所有的要求，而且这个市场离人性更近，在这里的人心境波涛汹涌又风平浪静。</p>
+<p>为什么股市是相对公平？股市是股票被价格后自由买卖的现场，价格是各方力量的结果。各方力量的相对差异会在一个时间段内区别价格趋势，但最终都会在价格中反映，这一点对于每一个参与者都是公平的，价格属于所有参与者公开的共同的信息。<br>股市对于人性的考验？价格不会欺骗人，真正欺骗人的是价格趋势。而对价格趋势的错误判断的人才会怨天尤人，然后自欺欺人的认为自己被欺骗。当参与者对价格趋势展开判断的那一刻起，就已经失去了抱怨的资格，因为贪婪已经从心底升起，时间只不过是一个验证的过客，结果会在参与者的不再判断中显示。</p>
+<p>任何市场里最大的欺骗不是被价格欺骗，也不是被价格趋势欺骗，更不是被庄家和政府欺骗，最大的欺骗其实是自我欺骗。跌破持仓价时会安慰自己，已经到底部了马上就会涨回去的；涨起来的就会洋洋得意，还想着涨的更多。蠢货们永远不懂得买定离手和落袋为安。</p>
+<p>价格趋势是可以预测的，在没有任何突发事件以及外界因素稳定的情况下（黑天鹅不用管，市场有足够强的自我修复能力），把价格趋势当成一个人，去感受她的情绪，对价格和量足够敏感，构建自己独特的态势感知。（态势感知可以用在很多行业，需要对未来进行预测和判断布局的行业里。这里的很多理论都可以拿出去用在专业行业。）</p>
+<p>股市有哪些走势的知识？这里需要技术分析的基础。但是两个现代数学理论可以完美的用在这里，混沌和分形。</p>
+<p>混沌是从物理学中发展而来。一些公认的特性，如初值敏感性（俗称“蝴蝶效应”）和奇异吸引子，实际上是确定性的非线性系统中出现的一种貌似随机的现象，混沌的奇妙之处在于把确定性和随机性这两个以前不相关的东西给统一了。混沌中行为总是会向阻力最小方向移动。分形是纯粹的几何数学知识，分形的核心是自相似，对于现实世界的很多貌似无规则的复杂现象，特别是在时间和空间上存在无穷迭代、控制和反馈机制的一些人工或自然的非线性系统，具有很强的描述能力，这其中包含了混沌现象。分形的奇妙之处在于以往看似无规则、碎片状的东西，其实也是有确定性规律的。（1）</p>
+<p>这两点几乎可以完美的应用在价格趋势和K线图上。<br>顺便说一句，本质这个世界上不存在投资，都是在投机。价值投资更是一则古老的寓言。</p>
+<p>说了股市就顺带讲一点投资理财的小知识，进入社会后任何人都该有点理财观念，哪怕一个月只有几千块的收入，这个习惯越早养成越受益。<br>首先，房子，如果不是刚需，这两年不推荐在一二线尤其是热点城市配置，现在的房价是进退两难，让子弹飞一会儿。<br>理财产品主要配置股票、基金和活期。如果年收入超过十万，建议配置少量股票，A股直接选大蓝筹，买了放那不要乱动，放上几年再说。如果有心可以配置一些美股，主要配置一些科技股、银行股，持仓策略也一样，就当这钱扔了，过几年再看。至于什么时候把钱拿出来，这就是这几年里你学习金融知识的动力了。<br>基金主要配置一些ETF、股票基金和混合基金，不要配置货币基金和指数基金，收益太低，股票基金可以多配置一些，选择基金的方法就是对某一个行业方向的预期，看好未来某个行业的发展就选择对应的行业相关性的基金，剩下的行业信息收集，基金持仓配置全部交给基金经理去做。然后定投，看情况半年一次补仓，一年一次调整。<br>剩下的应急使用的钱就扔活期里去吧。<br>（这两种配置方法其实我都不喜欢，股市的资金这样放着能动性太差，资金利用率太低，国内基金规定一只基金对某只股票持仓不能超过固定比例，如果被玩了根本无法自保。）</p>
+<p>语言（实际上是整个语音图像系统都有问题，被认为定义的定义需要一直定义）<br>语言在诞生之初就是为了交流，即为了对有限信息的表达。所以语言是在认知之后，有了传播的需要才诞生出来。<br>语言是对看见后的生理构建，即对选择后的有限信息的区别处理。这其中包含了两个过程，第一个是有限信息的保留，这个过程已经对整体看见进行了选择，第二是区别，区别是为了保留下语言能够处理的部分，然后不断组织，直到满足大脑的要求。<br>语言在描述时存在有局限性，并且永远都有局限性，为了满足表达，语言必须不断的被创造，并且由于语言随着使用频率的语义会不断散失，语言永远难以准确的描述信息（比如帅哥美女）。<br>意识和思维对于信息的处理速度越快的时候，人类的生理局限也会在语言上体现出来，即语言的表达常常跟不上思维的进度，甚至有时思维过于敏捷，语言上却是吞吞吐吐。<br>语言的描述精度的散失和语言文字本身对于意识思维的匮乏，让信息的交换充满了混乱和困难，所以感同身受和心有灵犀虽然只有那么一瞬间，却让人觉得尤为珍贵，人生知己就更是万里挑一一生难寻了，那是一种知识面和理想的完美契合。<br>维特根斯坦说：”语言的边界就是个人的边界。“尽管他很牛逼，但这个我是不同意的。</p>
+<p>语言这个问题我要好好考察一下，这是今年的任务，这里还有个有意思的地方在语言之间翻译的问题。</p>
+<p>人工智能：目前市场上对这一块的研究主要是在深度学习这一块上，我花了一个周末的时间看了大部分主流深度学习的算法和资料，说一下自己的看法。<br>人工智能目前的还是更偏向于人工，而非智能。<br>1）目前只是一种基于统计学的对于数据的聚合和归纳，而不是真正的能够理解数据。要想真正的智能，不仅是人为的调参数，更重要的是算法能够进化算法。当然，这个需要先有理论创新，因为变量太多。<br>2）实际应用中算法导致的同质化严重。（比如某电商，我买个吹风机，会天天推送吹风机给我首页）<br>3）数据大的，概率高的数据不一定就是好的数据，小概率的数据会被边缘化，但是小概率的数据未必就是不重要的。（比如金融市场）<br>4）人工智能，包括神经网络的算法，最早的目的是为了模拟人类大脑的学习。但是目前的理论和算法都是基于经验式学习，而人类的学习方式还有很多别的学习方式。（比如启发式，推理式等）所以还有很大进步空间。<br>5）数据是可以骗人的。<br>所以我觉得人工智能目前的发展并没有媒体说的那么夸张，在很多领域的确可以节约成本，提高效率，甚至创新发展出新的商业模式。但是放到整个社会发展中去看，这个东西只能锦上添花，做不到雪中送炭，也就是说它做不到真正的变革。在实际应用的时候可以发挥其优势，但是也该对其局限性有所了解。数据会按照算法的参数去产出结果，但是这个结果如何被看待，还需要结合行业和需求来使用。越是数据是核心资产的行业可能越会遇到很多问题。</p>
+<p>上面这些大概就是2017年所思所想的一些大纲性的描述，很多地方写的不太准确也不够细，后面会慢慢的修改和补充起来。还有就是这里的每一个模块，或者模块中的小模块都可以拿出来单独说，而且有很多内容可以说，可能也是需要今年做的事情。</p>
+<p>说一些2018年吧。</p>
+<p>2018年，索绪尔的《语言学基础教程》、海德格尔《存在与时间》以及《符号学入门》。然后会安排一些社会学和心理学的读物，如果有空会读一下黑格尔相关。还有一本欧洲史《耶路撒冷三千年》，买来好两三个月了，小说可能会读一下《三体》，剩余的偶尔会去书店看下当季畅销书，畅销书基本上一个下午就能翻一本，没什么营养，主要是收集下前沿信息。<br>技术书籍准备了一本《Windows核心编程》《C#ViaCLR》，其它的待定，很多资料要在网上看更方便，比如paper、文档和博客。</p>
+<p>最后熬点鸡汤，万一有人看的话。</p>
+<p>人为什么会迷茫？绝大多数都是来自于对自身的毫无把握，所以各种感性的慰藉会乘虚而入（包括心灵鸡汤和朋友的关心慰藉），感性的东西往往不能够长久，此刻的感受往往在其它的氛围或者环境中就会降低甚至消失，所以想要不再迷茫，想要对自身能够把握，需要更多的诉诸理性————————不想写了，让庸人们庸人自扰去吧。</p>
+<p></p>
+<p>最后希望我们去读一些真正能让你思考的书籍，认识一些能够给你思维上启发的人，少在一些垃圾上浪费时间。就像不要去迷恋成功学，成功学告诉你如何成功，却不会告诉你成功之后干什么，也许并不会有什么不同，人生在世，看透了自然就了然了。</p>
+<p>列个2017年书单</p>
+<p>《西方哲学史》【英】罗素</p>
+<p>这本书得了诺贝尔文学奖，罗素的主观观念很多，书中也铺垫了很多的时代背景知识，也有对哲学家本人的评价和介绍，推荐可以读一下。</p>
+<p>《西方哲学史》【美】弗兰克·梯利</p>
+<p>这本书梯利在康奈尔教书的大学课件，后来整理出版后被引入国内，现在也是很多大学的教材。比起罗素的书，这本书更加客观的介绍从苏格拉底到近代摩尔，对各个时代的哲学理论和体系进行梳理，主要是对哲学进行介绍和评价。</p>
+<p>《天才之为责任——维特根斯坦传》【美】 瑞•蒙克</p>
+<p>维特根斯坦，是出身在德国顶级富豪之家，尽管后来被罗素誉为天才，然而从小在其家庭里才能却并不突出，他的两个哥哥更是天才中的天才，可惜后来都自杀了。</p>
+<p>这哥们挺逗的，家财万贯却需要别人接济生活，本可以体面的留在大学做教授，却忍受不了那帮蠢货跑去乡下教书去了，想自杀跑去战场打战，却在此期间把《逻辑哲学论》完成了，而且自己还没死。</p>
+<p>《每天学点中国哲学》 胡适</p>
+<p>这就是中国哲学史改了个名字而已，胡适做事全特么虎头蛇尾。</p>
+<p>《逻辑哲学论》【奥地利】维特根斯坦</p>
+<p>33岁时写了这本书，以一人之力把分析哲学推上了高峰，并且和现象学形成平分之势甚至更压一头。</p>
+<p>《作为意志和世界的表象》【德】亚瑟·叔本华</p>
+<p>叔本华的核心是生命意志，他自认为自己是康德真正的继承，但是又拒绝物自体的概念，他认为不存在不能被认识的事物。悲观主义是其伦理学的内容，是生命意志在现象世界 的一个立足点。但是他看的不够远，仅仅从个体生命的过程来看待生命，尤其是从生命的终点来向前看，自然一切终归是走向消失，但这不该是生命本就痛苦的理由。</p>
+<p>《哲学史方法论十四讲》【中】邓晓芒</p>
+<p>中国的文化不缺世界观和方法论，缺失的是对世界观的世界观和方法论的方法论，就算看了这本书你也不会明白的。</p>
+<p>《你就是要很独特》【英】西蒙·布莱克</p>
+<p>独特个毛</p>
+<p>《自卑与超越》【奥地利】阿弗雷德·阿德勒</p>
+<p>这是本家庭教育心理学的书啊，写的都什么鬼玩意。</p>
+<p>《期货市场技术分析》【美】约翰·墨菲</p>
+<p>股市技术分析入门书籍</p>
+<p>《日本蜡烛图技术》【中】丁圣元</p>
+<p>日本的K线看图法，全信你连裤衩都能亏了。</p>
+<p>《证券混沌操作法》【美】比尔•威廉斯</p>
+<p>很多人都说好，我没看出好在哪里。</p>
+<p>《股票作手回忆录》【美】埃德温·李费佛</p>
+<p>相当于自传，也挺有意思的，可以从里面学点操作心理。</p>
+<p>《十年一梦》【中】青泽</p>
+<p>上面基本都是股市操作技术技巧和操作心里书籍，想了解中国股市历史，看这基本就够了。</p>
+<p>《中国空间》【中】李晓东 杨茳善</p>
+<p>讲中国建筑文化的书籍，还行。</p>
+<p>《我们内心的冲突》【美】卡伦·霍妮</p>
+<p>瞎扯淡凑字数，你有个毛冲突啊。</p>
+<p>《三国演义》【中】罗贯中</p>
+<p>回头重看一下，修正一下网上那些人道听途说和人云亦云的东西。</p>
+<p>《动物庄园》【英】乔治·奥威尔</p>
+<p>政治讽刺，为了帮某研究生同学写论文看的。</p>
+<p>《边城》【中】沈从文</p>
+<p>初恋，懵懂的初恋，很美好。</p>
+<p>《鬼吹灯》【中】南派三叔</p>
+<p>三叔你可真特么能扯，你也扯完整了啊。</p>
+<p>《UnityShader入门精要》</p>
+<p>《深入理解计算机操作系统》</p>
+
+    
+
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2016/12/12/2016读书总结/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2015/12/18/2015读书总结/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
@@ -574,6 +758,14 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
 
                     
 
