@@ -339,7 +339,7 @@
 
 .fancybox-caption-wrap {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
     right: 0;
     padding: 60px 30px 0;
@@ -354,7 +354,7 @@
 }
 
 .fancybox-show-caption .fancybox-caption-wrap {
-    opacity: 1
+    /* opacity: 1 */
 }
 
 .fancybox-caption {
