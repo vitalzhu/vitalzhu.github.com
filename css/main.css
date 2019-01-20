@@ -221,7 +221,7 @@ a:focus {
 }
 
 img {
-  max-width: 100%;
+  max-width: 20%;
   border: 0;
   padding: 0;
   height: auto;
@@ -514,8 +514,9 @@ h1.prince-log a {
 }
 
 .post-entry img {
-  max-width: 100%;
-  height: auto;
+  max-width: 130px;
+  height: 130px;
+  padding: 6px;
 }
 
 .post-entry p {
@@ -531,7 +532,9 @@ h1.prince-log a {
   -ms-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
+  display: inline;
 }
+
 
 .post-entry a:hover {
   background-color: #444;
@@ -883,6 +886,7 @@ a.article-more {
   color: #797979;
   font-weight: 600;
   transition: .3s;
+  float: right;
 }
 
 a.article-more:hover {
@@ -893,7 +897,7 @@ a.article-more:hover {
   height: 32px;
   text-align: center;
   display: inline-block;
-  float: right;
+  float: left;
 }
 
 .post-tags-box::before {
